@@ -67,7 +67,7 @@ public class MediatorTests
     {
         // Arrange
         var mediator = _serviceProvider.GetRequiredService<IMediator>();
-        PingRequest request = null;
+        PingRequest request = null!;
 
         // Act & Assert
         await Assert.ThrowsAsync<ArgumentNullException>(() => mediator.SendAsync(request));
