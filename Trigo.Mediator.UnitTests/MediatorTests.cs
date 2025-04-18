@@ -10,7 +10,7 @@ namespace Trigo.Mediator.UnitTests;
 public class MediatorTests
 {
     private readonly IServiceProvider _serviceProvider;
-    
+
     public MediatorTests()
     {
         var services = new ServiceCollection();

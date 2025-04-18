@@ -21,7 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Trigo.Mediator.Abstractions\Trigo.Mediator.Abstractions\Trigo.Mediator.Abstractions.csproj" />
+      <ProjectReference Include="..\Trigo.Mediator.Abstractions\Trigo.Mediator.Abstractions.csproj" />
       <ProjectReference Include="..\Trigo.Mediator\Trigo.Mediator.csproj" />
     </ItemGroup>
 

@@ -17,17 +17,17 @@ public abstract class Program
             return Task.FromResult(response);
         }
     }
-    
+
     public static async Task Main()
     {
         var services = new ServiceCollection();
         services.AddMediator();
-        
+
         var serviceProvider = services.BuildServiceProvider();
         var mediator = serviceProvider.GetRequiredService<IMediator>();
 
         var userCreationRequest = new UserCreationRequest("john_doe", "john@example.com");
-        
+
         var userCreationResponse = await mediator.SendAsync(userCreationRequest);
         Console.WriteLine($"{userCreationResponse.Message} - Success: {userCreationResponse.Success}");
     }

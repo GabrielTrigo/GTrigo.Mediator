@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trigo.Mediator", "Trigo.Mediator\Trigo.Mediator.csproj", "{AB3DC98D-43CA-44B0-964B-D76DAB37ED8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trigo.Mediator.Abstractions", "Trigo.Mediator.Abstractions\Trigo.Mediator.Abstractions\Trigo.Mediator.Abstractions.csproj", "{3122EF0F-7D94-49C1-850E-0604B2A1594E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trigo.Mediator.Abstractions", "Trigo.Mediator.Abstractions\Trigo.Mediator.Abstractions.csproj", "{3122EF0F-7D94-49C1-850E-0604B2A1594E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trigo.Mediator.Samples", "Trigo.Mediator.Samples\Trigo.Mediator.Samples.csproj", "{E308AE74-8053-4354-B4D5-67897C00C1C4}"
 EndProject

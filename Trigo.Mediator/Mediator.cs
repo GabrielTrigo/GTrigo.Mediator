@@ -21,7 +21,7 @@ public sealed class Mediator(IServiceProvider serviceProvider) : IMediator
         if (method.Invoke(handlerObj, [request, cancellationToken]) is not Task<TResponse> task)
             throw new InvalidOperationException(
                 $"Handler {handlerObj.GetType().Name} returned null or an incompatible type.");
-        
+
         return await task;
     }
 }
