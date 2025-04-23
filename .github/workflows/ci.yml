@@ -17,16 +17,15 @@ jobs:
           dotnet-version: '9.0'
       - name: Restore dependencies
         run: dotnet restore
-
       - name: Build and Test
         run: ./Build.sh
-        shell: pwsh
+        shell: bash
       - name: Push to MyGet
         env:
           NUGET_URL: https://www.myget.org/F/mediatr-ci/api/v3/index.json
           NUGET_API_KEY: ${{ secrets.MYGET_TGMEDIATOR_CI_API_KEY }}
         run: ./Push.sh
-        shell: pwsh
+        shell: bash
       - name: Artifacts
         uses: actions/upload-artifact@v4
         with:
