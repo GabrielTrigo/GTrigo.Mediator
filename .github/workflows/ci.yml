@@ -22,7 +22,7 @@ jobs:
         shell: bash
       - name: Push to my NuGet
         env:
-          NUGET_URL: https://www.myget.org/F/mediatr-ci/api/v3/index.json
+          NUGET_URL: https://api.nuget.org/v3/index.json
           NUGET_API_KEY: ${{ secrets.MYGET_TGMEDIATOR_CI_API_KEY }}
         run: ./push.sh
         shell: bash
