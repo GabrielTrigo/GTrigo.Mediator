@@ -10,7 +10,7 @@
         <Authors>Gabriel Trigo</Authors>
         <Description>Uma implementação do padrão Mediator com suporte a injeção de dependência e registro automático de manipuladores.</Description>
         <PackageTags>mediator;dependency-injection;cqrs;Trigo.mediator</PackageTags>
-        <RepositoryUrl>https://github.com/GabrielTrigo/Trigo.Mediator</RepositoryUrl>
+        <RepositoryUrl>https://github.com/GabrielTrigo/GTrigo.Mediator</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
     </PropertyGroup>

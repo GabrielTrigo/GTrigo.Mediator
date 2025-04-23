@@ -21,4 +21,6 @@ fi
 exec "dotnet clean -c Release" "Erro ao executar dotnet clean"
 exec "dotnet build -c Release" "Erro ao executar dotnet build"
 exec "dotnet test -c Release --no-build -l trx --verbosity=normal" "Erro ao executar dotnet test"
+
 exec "dotnet pack ./GTrigo.Mediator/GTrigo.Mediator.csproj -c Release -o $artifacts --no-build" "Erro ao executar dotnet pack"
+exec "dotnet pack ./GTrigo.Mediator.Abstractions/GTrigo.Mediator.Abstractions.csproj -c Release -o $artifacts --no-build" "Erro ao executar dotnet pack"
